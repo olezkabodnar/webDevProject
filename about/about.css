@@ -1,6 +1,5 @@
 body {
     font-family: 'Arial', sans-serif;
-    margin: 20px;
     background-color: #f4f4f4;
 }
 
@@ -60,6 +59,14 @@ footer {
     color: white;
 }
 
-img{
+.header-image{
     width: 2em;
+}
+
+.header-text{
+    margin-top: 1em;
+}
+
+.nav-header-text{
+    color: white;
 }

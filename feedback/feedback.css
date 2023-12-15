@@ -1,0 +1,131 @@
+    body {
+        /* background-image: url('background.jpg'); */
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        /* //background-color: #f5f5f5; */
+        color: white;
+    }
+
+    .imgleft {
+        float: left;
+    }
+
+    .imgright {
+        float: right;
+    }
+
+
+    .header {
+        padding: 1px;
+        text-align: center;
+        background: black;
+        color: white;
+        font-size: 50px;
+        font-family: Georgia, serif;
+        background-image: url("logo.png");
+        background-repeat: no-repeat;
+        /* //height: 90px; */
+        /* //margin-bottom: 110; */
+
+
+    }
+
+    .topnav {
+        background-color: red;
+        overflow: hidden;
+        max-width: 100%
+    }
+
+    .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 20px;
+    }
+
+    .topnav a:hover {
+        background-color: white;
+        color: black;
+    }
+
+    .topnav a.split {
+        float: right;
+        background-color: #04AA6D;
+        color: white;
+    }
+
+    .box {
+        border: 1px solid #7f7f7f;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        background-color: black;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+        margin-left: 20px;
+
+
+    }
+
+    .footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        bottom: 0;
+        width: auto;
+    }
+
+    .container {
+        border-radius: 5px;
+        padding: 20px;
+        color: white;
+        background-color: #333;
+        max-width: 600px;
+        margin: 20px auto;
+
+    }
+
+    form {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 8px;
+    }
+
+    input[type="text"],
+    input[type="password"],
+    textarea {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 16px;
+        box-sizing: border-box;
+    }
+
+    input[type="checkbox"],
+    input[type="radio"] {
+        margin-right: 8px;
+    }
+
+    button {
+        background-color: #4caf50;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    .space {
+        margin-top: 120px;
+    }
